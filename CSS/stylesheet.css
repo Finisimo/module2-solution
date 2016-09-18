@@ -1,15 +1,46 @@
 body{
-
+  padding: 10px 10px 10px 10px;
+  margin: 40px;
   
 }
+
+/**** mobile view ****/
+@media (max-width:767px){
+#one {
+	width: 80%;
+}
+#two {
+	width: 80%;
+}
+#three {
+	width: 80%;
+}
+}
+
+/**** tablet view ****/
+@media (min-width:768px) and (max-width:991px){
+#one {
+	width: 50%;
+}
+#two {
+	width: 50%;
+}
+#three {
+	width: 100%;
+}
+
+}
+
+
 
 #one {
     display: block;
     border-style: solid;
     padding: 40px ;
-     border-collapse: separate;
+    border-collapse: separate;
     border-spacing: 10px;
     background: #61615E;
+ 	
      
   
 }
@@ -18,23 +49,26 @@ body{
     border-style: solid;
     padding: 40px ;
      background: #61615E;
+   
 }
 #three {
     display: block;
     border-style: solid;
     padding: 40px ;
      background: #61615E;
+       
 }
 h1{
 	text-align: center;
 	padding: 3px 0 ;
+	 
 }
 
 p.top {
     border: 1px solid black;
     outline-style: none;
     outline-color: #000000;
-    position: relative;
+   position: relative;
 	width: 12%;
 	float:right;
 	margin-left: 95px;
@@ -46,6 +80,7 @@ p.top {
 	 padding-top: 20px;
 	 padding-left:20px;
 	 top: -56px;
+	   padding: 10px 10px 10px 10px;
 	
 }
 p.middle {
@@ -64,6 +99,7 @@ p.middle {
     padding-top: 20px;
     padding-left:20px;
     top: -56px;
+      padding: 10px 10px 10px 10px;
 }
 
 p.bottom {
@@ -82,4 +118,5 @@ p.bottom {
 	 padding-top: 20px;
 	 padding-left:20px;
 	top: -56px;
+	  padding: 10px 10px 10px 10px;
 }
